@@ -26,7 +26,7 @@ int generatePrime(int min, int max) {
     return num;
 }
 
-// 计算最大公约数（欧几里得算法）
+// 计算最大公约数
 int gcd(int a, int b) {
     while (b != 0) {
         int temp = b;
@@ -35,4 +35,5 @@ int gcd(int a, int b) {
     }
     return a;
 }
+
 
